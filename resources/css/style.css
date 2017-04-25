@@ -1,0 +1,113 @@
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100px;
+  margin: 0;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  z-indez: 1;
+}
+header img {
+    height: 50px;
+    padding-left: 10px;}
+
+nav {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  text-decoration: underline;
+  color: seashell;
+}
+
+span {
+  position: inline;
+  color: seashell;
+}
+
+.main {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  padding-top: 69px;
+}
+
+body {
+  margin: 0;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+#featured {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin-left: 33px;
+  margin-bottom: 50px;
+}
+.item img {
+  height: 100%
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+}
+
+.flex-container locations{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.location {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin-left: 33px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  background-color: black;
+}
+
+#contact {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  text-align: left;
+
+}
